@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAE790"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#F2FEAA"
+        android:drawableLeft="@drawable/image_1"
+        android:text="Мое смарт-устройство"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/image_2"
+        android:text="1.3km"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/image_3"
+        android:text="59 kcal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/vector"
+        android:text="30 min"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="316dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/vector__1_"
+        android:text="1.3km"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="157dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/vector__2_"
+        android:drawableBottom="@drawable/scale_1200__1__1"
+        android:text="62 kg"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="157dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#DFE1D5"
+        android:drawableLeft="@drawable/vector__3_"
+        android:drawableBottom="@drawable/_528474303176360636_1"
+        android:text="8 bmp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="536dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
